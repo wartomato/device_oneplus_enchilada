@@ -35,6 +35,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Pocket mode
+PRODUCT_PACKAGES += \
+    OnePlusPocketMode
+
 # Prebuilts
 PRODUCT_PACKAGES += \
     OnePlusCamera \
