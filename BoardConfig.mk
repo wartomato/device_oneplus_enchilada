@@ -29,4 +29,4 @@ TARGET_KERNEL_CONFIG := aicp_oneplus6_defconfig
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
 
 # Inherit from oppo-common
--include device/oneplus/enchilada/OppoCommon/BoardConfigCommon.mk)   
+-include device/oppo/common/BoardConfigCommon.mk

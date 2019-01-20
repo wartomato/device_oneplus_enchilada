@@ -25,8 +25,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # OppoCommon
-PRODUCT_PACKAGES += \
-    OppoCommon  
+#PRODUCT_PACKAGES += \
+#    OppoCommon
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -65,4 +65,4 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 #$(call inherit-product, vendor/oneplus/enchilada/enchilada-vendor.mk)
 
 # Inherit from oppo-common
-$(call inherit-product, device/oneplus/enchilada/OppoCommon/common.mk)
+$(call inherit-product, device/oppo/common/common.mk)
