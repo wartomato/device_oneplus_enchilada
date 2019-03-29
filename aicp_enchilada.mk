@@ -22,9 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from enchilada device
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
-# Inherit some common AICP stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
-$(call inherit-product, vendor/aicp/config/caf_fw.mk)
 
 PRODUCT_NAME := aicp_enchilada
 PRODUCT_DEVICE := enchilada

@@ -22,11 +22,8 @@ DEVICE_PATH := device/oneplus/enchilada
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Kernel
-TARGET_KERNEL_CONFIG := aicp_oneplus6_defconfig
-
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
 
-# Inherit from oppo-common
--include device/oppo/common/BoardConfigCommon.mk
+# Avoid auto updates till we fix the Updater on AvB devices
+NO_AUTO_UPDATER := true
